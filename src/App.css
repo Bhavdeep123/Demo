@@ -1,38 +1,307 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+@font-face {
+  font-family: "Century Gothic" !important;
+  src: url("./Fonts/Century\ Gothic.otf");
+  /* src: url("./Fonts/Century\ Gothic\ Bold\ Italic.otf");  */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Century Gothic" !important;
+  src: url("./Fonts/Century\ Gothic\ Bold.otf");
+  font-weight: normal;
+  font-style: bold;
+}
+.chatbackleft {
+  width: 25%;
+  height: 100vh;
+  /* border: solid black; */
+  background: #eff1f2;
+}
+.chatbackcent {
+  height: 100vh;
+  /* border: solid black; */
+
+  background: #ffffff;
+  width: 50%;
+}
+.chatbackright {
+  height: 100vh;
+  /* border: solid black; */
+
+  width: 25%;
+  background: #ffffff;
+}
+.chatscreenleft {
+  height: 88px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 5px rgba(209, 209, 209, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.chatscreencenter {
+  /* width: 50%; */
+  height: 88px;
+  /* border: 1px solid black; */
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 5px rgba(209, 209, 209, 0.25);
+}
+.chatscreenright {
+  /* width: 25%; */
+  height: 88px;
+  /* border: 1px solid black; */
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 5px rgba(209, 209, 209, 0.25);
+}
+.ltxt1 {
+  height: 20px;
+  font-family: "Century Gothic" !important;
+
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 34px;
+  padding-top: 10px;
+  color: #000000;
+}
+.lbut {
+  margin-left: 25px !important;
+  margin-top: 17px !important;
+  width: 168px;
+  height: 40px;
+  background: linear-gradient(180deg, #d92cc1 0%, #4d72f8 100%);
+  border-radius: 30px !important;
+  padding: 0 !important;
+}
+.ltxt2 {
+  font-family: "Century Gothic" !important;
+  font-size: 15px;
+  font-weight: bold !important;
+  text-align: center;
+  white-space: nowrap;
+
+  color: #ffffff;
+}
+
+.iconcall {
+  color: rgba(156, 152, 152, 0.713);
+}
+.btn1 {
+  width: 134px !important;
+  height: 45px !important;
+  background: linear-gradient(180deg, #d92cc1 0%, #4d72f8 100%);
+  border-radius: 30px !important;
+  color: white !important;
+  padding-top: 30px;
+  position: fixed;
+  left: 24px;
+  z-index: 1;
+}
+.btn2 {
+  width: 134px !important;
+  height: 45px !important;
+  background: linear-gradient(180deg, #d92cc1 0%, #4d72f8 100%);
+  border-radius: 30px !important;
+  color: white !important;
+  padding-top: 30px;
+  position: fixed;
+  z-index: 1;
+  right: 24px;
+}
+
+.btnanother {
+  background: #ffffff !important;
+  border-radius: 30px !important;
+  width: 134px !important;
+  height: 45px !important;
+}
+.ltxt3 {
+  font-family: "Century Gothic" !important;
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold !important;
   text-align: center;
 }
+.searchbox {
+  width: 355px;
+  height: 44px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background: #ffffff;
+  box-shadow: 5px 5px 21px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background: none !important;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto+Slab:wght@700&display=swap");
+.searchplaceholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 4px;
+  line-height: 15px;
+
+  color: #7a7a7a;
+}
+.All {
+  background: linear-gradient(180deg, #d92cc1 0%, #4d72f8 100%), #4d72f8;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 25px !important;
+  width: 76px;
+  height: 40px;
+}
+.Allafter1 {
+  width: 76px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 25px !important;
+  border: #c535c8 solid 0.5px !important;
+}
+.All1 {
+  background: linear-gradient(180deg, #d92cc1 0%, #4d72f8 100%), #4d72f8;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 25px !important;
+  width: 102px;
+  height: 40px;
+}
+.Allafter2 {
+  width: 102px;
+  height: 40px;
+  border-radius: 25px !important;
+  background: #ffffff;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+  border: #c535c8 solid 0.5px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.All2 {
+  background: linear-gradient(180deg, #d92cc1 0%, #4d72f8 100%), #4d72f8;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 25px !important;
+  width: 117px;
+  height: 40px;
+}
+.Allafter3 {
+  border-radius: 25px !important;
+  width: 117px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+  border: #c535c8 solid 0.5px !important;
+}
+.alltxt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.alltxt1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #8b8b8b;
 }
 
-.App-link {
-  color: #61dafb;
+.ctxt1 {
+  font-family: "Inter" !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 20px !important;
+  color: #000000;
+  margin-left: 15px !important;
 }
+.ctxt2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 15px !important;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #ababab;
+}
+.backbox {
+  width: 340px;
+  height: 68px;
+  background: #ffffff;
+  box-shadow: 5px 5px 21px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.backboximg {
+  text-align: left !important;
+}
+.css-11dgxsc-MuiAvatar-root {
+  height: 35px !important;
+  width: 35px !important;
+  margin-left: 8px;
+  margin-top: 15px;
+  font-family: "Century Gothic" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px !important;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.avtarname {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 12px !important;
+  margin-left: 10px !important;
+
+  color: #000000;
+}
+.smallcallicon {
+  margin-left: 10px !important;
+}
+.callsdetails {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 10px;
+  color: #7a7a7a;
+}
+.timeofcalls {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+  margin-left: 13px !important;
+  margin-top: 10px !important;
+  color: #7a7a7a;
+}
+.infoicon {
+  margin-left: 30px;
+  width: 25px !important;
+  height: 25px !important;
+  font-size: 5px !important;
 }
