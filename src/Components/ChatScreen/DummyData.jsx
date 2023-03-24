@@ -5,36 +5,43 @@ export const Data = [
     name: "Mishal Irfan ",
     calls: "Are You available for meeting?",
     time: "2:34Pm",
+    status: 1,
   },
   {
     name: "Asad Najam",
     calls: "Are You available for meeting?",
     time: "2:34Pm",
+    status: 1,
   },
   {
     name: "Brown ",
     calls: "Are You available for meeting?",
     time: "2:34Pm",
+    status: 0,
   },
   {
     name: "Asad Najam",
     calls: "Are You available for meeting?",
     time: "2:34Pm",
+    status: 1,
   },
   {
     name: "Brown ",
     calls: "Are You available for meeting?",
     time: "2:34Pm",
+    status: 1,
   },
   {
     name: "Brown ",
     calls: "Are You available for meeting?",
     time: "2:34Pm",
+    status: 1,
   },
   {
     name: "Brown ",
     calls: "Are You available for meeting?",
     time: "2:34Pm",
+    status: 0,
   },
 ];
 
