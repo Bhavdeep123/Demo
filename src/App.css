@@ -283,9 +283,9 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 17px;
-  margin-left: 10px;
+  margin-left: 5px;
   color: #7a7a7a;
 }
 .timeofcalls {
@@ -304,4 +304,159 @@
   width: 25px !important;
   height: 25px !important;
   font-size: 5px !important;
+}
+.chatback {
+  height: 500px;
+  /* border: 1px solid black; */
+  overflow-x: hidden;
+}
+.centerlastback {
+  /* border: 1px solid black; */
+  height: 88px;
+}
+.attachbtn {
+  min-width: 20px !important;
+  padding: 1px 1px !important;
+  margin-top: 30px !important;
+  margin-left: 13px !important;
+}
+.attachicon {
+  height: 30px !important;
+  color: gray !important;
+  width: 35px !important;
+}
+.inputmessage {
+  background: #f0f2f5;
+  border-radius: 7px;
+  width: 590px;
+  height: 60px;
+  margin-left: 10px;
+  padding: 10px 10px 10px 30px;
+  margin-top: 20px;
+  border: none;
+}
+.inputmessage::placeholder {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #818080;
+}
+.smile {
+  min-width: 20px !important;
+  padding: 1px 1px !important;
+  position: relative;
+  margin-left: -60px !important;
+}
+.voice {
+  min-width: 20px !important;
+  padding: 1px 1px !important;
+  margin-left: 0px !important;
+}
+.sendimg {
+  height: 50px;
+}
+.receiverchat {
+  width: 375px;
+  height: auto;
+  margin-left: 10px;
+}
+/* .receiver {
+  float: left;
+  width: 100%;
+}
+.sender {
+  float: right;
+  /* border: 1px solid; */
+/* margin-left: -113px; */
+/* } */
+.receiver {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.sender {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.message-text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  /* max-height: 80%; */
+  padding: 0px 12px;
+  line-height: 21px;
+  word-wrap: break-word;
+  color: #ffffff;
+}
+.message {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+  width: auto;
+
+  background: linear-gradient(180deg, #d92cc1 0%, #4d72f8 100%), #4d72f8;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 50px 50px 0px 50px;
+}
+.rmessage {
+  width: 330px;
+  height: 70px;
+  background: #e9eff4;
+  border-radius: 45px;
+  font-family: "Arial" !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 28px !important;
+  color: #000000;
+  padding: 8px 8px 5px 20px;
+}
+.timestamp {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  float: right;
+  color: #ffffff;
+}
+.help {
+  font-size: 35px !important;
+  color: rgba(153, 153, 153, 0.8);
+}
+.contact-txt {
+  width: 170px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  padding: 25px;
+
+  color: #000000;
+}
+.plus {
+  background: linear-gradient(180deg, #d92cc1 0%, #4d72f8 100%), #4d72f8;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  color: white;
+  font-size: 35px !important;
+}
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.alp-btn {
+  padding: 0 !important;
+  line-height: 1 !important;
 }

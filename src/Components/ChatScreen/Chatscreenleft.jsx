@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import messagelogo from "../../Images/messagelogo.png";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import CallIcon from "@mui/icons-material/Call";
-import Contact from "./Contact";
+import Contact from "./LeftButton";
 import SearchIcon from "@mui/icons-material/Search";
 import { styled } from "@mui/material/styles";
 
